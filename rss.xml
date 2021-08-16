@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Alexander's Blog Blog</title>
+        <link>https://www.alexanderlolis.com/</link>
+        <description>Alexander's Blog Blog</description>
+        <lastBuildDate>Mon, 16 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Riding the bull; the npm package, that is]]></title>
+            <link>https://www.alexanderlolis.com/riding-the-bull</link>
+            <guid>riding-the-bull</guid>
+            <pubDate>Mon, 16 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is a post about a specific Node.js library, named bull, which is used to execute background jobs.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How to pass the first round of my interviews]]></title>
+            <link>https://www.alexanderlolis.com/how-to-pass-the-first-round-of-my-interviews</link>
+            <guid>how-to-pass-the-first-round-of-my-interviews</guid>
+            <pubDate>Mon, 25 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[A cheat sheet for future software developer candidates]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Happy 2021!]]></title>
+            <link>https://www.alexanderlolis.com/happy-2021</link>
+            <guid>happy-2021</guid>
+            <pubDate>Fri, 01 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[I wish health and happiness to everyone, and anything else that you wish for, and let us hope that this year we will be a better one, COVID free!]]></description>
+        </item>
+        <item>
+            <title><![CDATA[My 2020 reads]]></title>
+            <link>https://www.alexanderlolis.com/my-2020-reads</link>
+            <guid>my-2020-reads</guid>
+            <pubDate>Fri, 25 Dec 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Flow]]></description>
+        </item>
+        <item>
+            <title><![CDATA[JavaScript Objects Cachification]]></title>
+            <link>https://www.alexanderlolis.com/javascript-objects-cachification</link>
+            <guid>javascript-objects-cachification</guid>
+            <pubDate>Sat, 19 Dec 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Wrapping your JavaScript Objects with caching capabilities]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How to tag data in Redis]]></title>
+            <link>https://www.alexanderlolis.com/how-to-tag-data-in-redis</link>
+            <guid>how-to-tag-data-in-redis</guid>
+            <pubDate>Tue, 01 Dec 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[What are Sets and how to use them as secondary indexes]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Fight or flight? Breathe instead]]></title>
+            <link>https://www.alexanderlolis.com/fight-or-flight-breathe-instead</link>
+            <guid>fight-or-flight-breathe-instead</guid>
+            <pubDate>Wed, 04 Nov 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[How to achieve the best attitude at work with integrity and self-awareness]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Remote work tips - How NOT to snap]]></title>
+            <link>https://www.alexanderlolis.com/remote-work-tips</link>
+            <guid>remote-work-tips</guid>
+            <pubDate>Sat, 18 Apr 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Lot of these articles going around these days due to COVID-19, but I felt like giving my two cents since I’ve been a freelancer in the past, mostly working from home, so I know how it feels like.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[COVID-19]]></title>
+            <link>https://www.alexanderlolis.com/covid-19</link>
+            <guid>covid-19</guid>
+            <pubDate>Sat, 28 Mar 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[We are facing an unprecedented situation in human history. The COVID-19 virus has affected everyones life and is testing us in ways that we have not been tested before. It has been brutally attacking our health and our economies and imprisoned us in our own homes for our own safety but we need to be patient and go through this together.]]></description>
+        </item>
+    </channel>
+</rss>

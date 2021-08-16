@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.alexanderlolis.com/</id>
+    <title>Alexander's Blog Blog</title>
+    <updated>2021-08-16T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://www.alexanderlolis.com/"/>
+    <subtitle>Alexander's Blog Blog</subtitle>
+    <icon>https://www.alexanderlolis.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Riding the bull; the npm package, that is]]></title>
+        <id>riding-the-bull</id>
+        <link href="https://www.alexanderlolis.com/riding-the-bull"/>
+        <updated>2021-08-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is a post about a specific Node.js library, named bull, which is used to execute background jobs.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to pass the first round of my interviews]]></title>
+        <id>how-to-pass-the-first-round-of-my-interviews</id>
+        <link href="https://www.alexanderlolis.com/how-to-pass-the-first-round-of-my-interviews"/>
+        <updated>2021-01-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A cheat sheet for future software developer candidates]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Happy 2021!]]></title>
+        <id>happy-2021</id>
+        <link href="https://www.alexanderlolis.com/happy-2021"/>
+        <updated>2021-01-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I wish health and happiness to everyone, and anything else that you wish for, and let us hope that this year we will be a better one, COVID free!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[My 2020 reads]]></title>
+        <id>my-2020-reads</id>
+        <link href="https://www.alexanderlolis.com/my-2020-reads"/>
+        <updated>2020-12-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Flow]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JavaScript Objects Cachification]]></title>
+        <id>javascript-objects-cachification</id>
+        <link href="https://www.alexanderlolis.com/javascript-objects-cachification"/>
+        <updated>2020-12-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Wrapping your JavaScript Objects with caching capabilities]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to tag data in Redis]]></title>
+        <id>how-to-tag-data-in-redis</id>
+        <link href="https://www.alexanderlolis.com/how-to-tag-data-in-redis"/>
+        <updated>2020-12-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[What are Sets and how to use them as secondary indexes]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fight or flight? Breathe instead]]></title>
+        <id>fight-or-flight-breathe-instead</id>
+        <link href="https://www.alexanderlolis.com/fight-or-flight-breathe-instead"/>
+        <updated>2020-11-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[How to achieve the best attitude at work with integrity and self-awareness]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Remote work tips - How NOT to snap]]></title>
+        <id>remote-work-tips</id>
+        <link href="https://www.alexanderlolis.com/remote-work-tips"/>
+        <updated>2020-04-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Lot of these articles going around these days due to COVID-19, but I felt like giving my two cents since I’ve been a freelancer in the past, mostly working from home, so I know how it feels like.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[COVID-19]]></title>
+        <id>covid-19</id>
+        <link href="https://www.alexanderlolis.com/covid-19"/>
+        <updated>2020-03-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We are facing an unprecedented situation in human history. The COVID-19 virus has affected everyones life and is testing us in ways that we have not been tested before. It has been brutally attacking our health and our economies and imprisoned us in our own homes for our own safety but we need to be patient and go through this together.]]></summary>
+    </entry>
+</feed>
