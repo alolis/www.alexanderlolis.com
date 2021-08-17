@@ -348,7 +348,7 @@ class JobService {
 
 #### Overview
 
-The only way to get the job state with the `bull` API at the moment is `Job.getState`. That means, that first, you need to load the job(s) and then call the method. Not very convinient I am afraid, but again, for performance reasons from the `bull` side, this is how it is. 
+The only way to get the job state with the `bull` API at the moment is `Job.getState`. That means, that first, you need to load the job(s) and then call the method. Not very convenient I am afraid, but again, for performance reasons from the `bull` side, this is how it is. 
 
 #### Approach #1 - Dynamically attach a `state` field to jobs
 
