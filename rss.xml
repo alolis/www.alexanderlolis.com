@@ -4,9 +4,16 @@
         <title>Alexander's Blog Blog</title>
         <link>https://www.alexanderlolis.com/</link>
         <description>Alexander's Blog Blog</description>
-        <lastBuildDate>Mon, 16 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 Aug 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Node.js fork is slow; Deal with it]]></title>
+            <link>https://www.alexanderlolis.com/node-js-fork-is-slow-deal-with-it</link>
+            <guid>node-js-fork-is-slow-deal-with-it</guid>
+            <pubDate>Tue, 17 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dealing with Node.js fork slowness]]></description>
+        </item>
         <item>
             <title><![CDATA[Riding the bull; the npm package, that is]]></title>
             <link>https://www.alexanderlolis.com/riding-the-bull</link>
