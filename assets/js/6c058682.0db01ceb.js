@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[363],{3888:function(e){e.exports=JSON.parse('{"allTagsPath":"/tags","slug":"battlefield","name":"battlefield","count":2,"permalink":"/tags/battlefield"}')}}]);
