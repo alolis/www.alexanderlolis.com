@@ -352,7 +352,7 @@ The only way to get the job state with the `bull` API at the moment is `Job.getS
 
 #### Approach #1 - Dynamically attach a `state` field to jobs
 
-Although this is not very robust since it can break any after a `bull` upgrade, it worked fine for us at the beginning (before we ended up using a database) and it might do the trick for you as well. The following function can be used to attach a `state` field on each `Job` object, which is way faster than calling `.getState` for every each one of them:
+Although this is not very robust since it can break after a `bull` upgrade, it worked fine for us at the beginning (before we ended up using a database) and it might do the trick for you as well. The following function can be used to attach a `state` field on each `Job` object, which is way faster than calling `.getState` for every each one of them:
 
 ```javascript
 import _ from 'lodash';
@@ -431,6 +431,138 @@ class JobService {
     });
     
     // Add all the necessary queue event handlers that change state
+  }
+}
+```
+
+## Using a custom Error object
+
+Another problem that we had to solve was the need to expose custom error objects from within the processors in order to be able to pass them higher in the call chain and handle them accordingly. 
+
+Unfortunately, `bull` does not have some kind of mechanism at the moment to do that and the only thing you have access to when an error occurs, is the `job.failedReason` which is a string. So, why not use that to our benefit?
+
+#### Approach
+
+You basically need to create a small mechanism to `JSON.stringify` the error object you want to store and `JSON.parse` it before consumption. 
+
+One way to do this is by taking advantage of our previously mentioned higher order function, [`wrapProcessor`](riding-the-bull.md#the-wrapprocessor-function) in combination with a custom `Error` object that will use the `message` property of the `Error` to store a JSON stringified value. The reason we will use the `message` property is because that's what `bull` [uses to automatically store the failed reason](https://github.com/OptimalBits/bull/blob/v3.28.1/lib/job.js#L276).
+
+After you wrap the error thrown by the processor, you can just re-throw it and parse it in your `failed` queue event handler or when you load a job with the `Queue` class. In the following code I will use our [`JobService`](riding-the-bull#the-jobservice-class) class as an example for parsing and handling the error:
+
+```javascript
+// The custom error object
+import ExtendableError from 'es6-error';
+
+class JobError extends ExterndableError {
+  constructor(code, message) {
+    this.errorObject = {
+      code,
+      message
+    };
+    
+    super(JSON.stringify(this.errorObject));
+  }
+  
+  getErrorObject() {
+    return this.errorObject;
+  }
+}
+
+// The updated wrapProcessor function
+import logger from '/your/logger';
+
+function wrapProcessor(processor) {
+  async function wrappedProcessor(job) {
+    // ... omitted previous code for succinctness
+
+    try {
+     // ... omitted previous code for succinctness
+     
+      const result = await processor(job);
+
+      return result;
+    } catch (e) {
+      logger.error(e);
+      
+      if (e instanceof JobError) {
+        throw e;
+      } else {
+        /* 
+          Wrap the error as `JobError` and throw it. You can also create a mapping of "known" errors and assign them
+          a specific code and error message. For example if you are doing validation within your processor, you could
+          handle the validation error here and then wrap it as a `JobError`.
+        */
+      }
+    } finally {
+      // ... omitted previous code for succinctness
+    }
+  }
+
+  return wrappedProcessor;
+}
+
+// myProcessor.js
+async function myProcessor(job) {
+   // Your processor code here
+   
+   // Something bad happened, throw error!
+   throw new JobError('myErrorCode', 'Something very bad happened!');
+   
+   return result;
+}
+
+// Wrap your processor!
+export default wrapProcessor(myProcessor);
+
+// The updated `JobService` 
+import _ from 'lodash';
+
+class JobService {
+  // ... omitted previous code for succinctness
+  
+  /**
+    Attach event handlers to each queue.
+    
+    @private
+  */
+  attachQueueHandlers(queue) {
+    // Attach on queue all events that can change state like so:
+     queue.on('failed', (job) => {
+       const errorObject = this.parseFailedReason(job.failedReason);
+       
+       // Do whatever you want with `errorObject`
+    });
+    
+    // Add all the necessary queue event handlers that change state
+  }
+  
+  /**
+   * Parses failed reason which occurs when the job process gets killed or an error is thrown from within
+   * the processor. Bull uses the `message` property from any errors inherited from `Error`, so, if that's the case 
+   * we should be able to get a JSON object since we stringified our error object, or else we will just handle 
+   * the `failedReason` parameter as a plain string.
+   *
+   * @private
+   * @see {@link https://github.com/OptimalBits/bull/blob/v3.28.1/lib/job.js#L276}
+   * @param {String} failedReason
+   * @returns {Object}
+  */
+  function parseFailedReason(failedReason) {
+    // https://github.com/OptimalBits/bull/blob/develop/lib/process/sandbox.js#L42
+    const unexpectedExitString = 'Unexpected exit code';
+
+    try {
+      return JSON.parse(failedReason);
+    } catch (e) {
+      // If we are here, then it means that something out of our control happened
+      // and the processor never returned a json result string as we expected.
+      return {
+        code: _.startsWith(failedReason, unexpectedExitString) ?
+          'UNEXPECTED_EXIT_ERROR':
+          'INTERNAL_ERROR',
+         message: failedReason
+      };
+    }
   }
 }
 ```
