@@ -74,6 +74,7 @@ commandProcessorsPool.on('factoryDestroyError', logger.debug);
 And of course, you will also need to implement the actual processor which looks like this:
 
 ```javascript title="processor.js"
+import {serializeError} from 'serialize-error';
 import logger from '/your/logger';
 import {MESSAGE_STATUS} from './pool.js';
 
@@ -102,6 +103,8 @@ Going back to our pool implementation, the only thing left now is the function t
 
 ```javascript title="pool.js"
 // ... omitted previous code for succinctness
+
+import {deserializeError} from 'serialize-error';
 
 const MESSAGE_STATUS = {
   OK: 'ok',
