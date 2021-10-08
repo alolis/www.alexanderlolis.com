@@ -36,9 +36,9 @@ Well, instead of re-writting the whole thing in a different language, I have an 
 
 The idea is straightforward; Upon service initialization, fork a bunch of processes, and whenever a request comes in, get a resource (a child process) from the pool and use `IPC` communication to send commands to it. After the processor completes, return it to the pool. 
 
-The first thing for all this of course, is a pool. The good news is that there is no need to implement your own, you can just use this lovely `npm` package, [generic-pool](https://www.npmjs.com/package/generic-pool).
+The first thing for all this of course, is a pool. The good news is that there is no need to implement your own, you can just use this lovely `npm` package, [generic-pool](https://www.npmjs.com/package/generic-pool), or the native [cluster](https://nodejs.org/api/cluster.html) module depending on your use case.
 
-So, lets start with the processors pool which will look something like this:
+For this post, I will use `generic-pool` so lets start with the processors pool which will look something like this:
 
 ```javascript title="pool.js"
 import {fork} from 'child_process';
