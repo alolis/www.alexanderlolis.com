@@ -4,9 +4,16 @@
         <title>Alexander's Blog Blog</title>
         <link>https://www.alexanderlolis.com/</link>
         <description>Alexander's Blog Blog</description>
-        <lastBuildDate>Mon, 27 Sep 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 05 Jan 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Welcome 2022!]]></title>
+            <link>https://www.alexanderlolis.com/welcome-2022</link>
+            <guid>welcome-2022</guid>
+            <pubDate>Wed, 05 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Happy new year! I wish everyone health, hapiness and a 2022 in which each individual decides it's own fate, by letting fear aside!]]></description>
+        </item>
         <item>
             <title><![CDATA[Node.js fork is slow; Deal with it]]></title>
             <link>https://www.alexanderlolis.com/node-js-fork-is-slow-deal-with-it</link>

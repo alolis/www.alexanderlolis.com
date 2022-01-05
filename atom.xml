@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.alexanderlolis.com/</id>
     <title>Alexander's Blog Blog</title>
-    <updated>2021-09-27T00:00:00.000Z</updated>
+    <updated>2022-01-05T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.alexanderlolis.com/"/>
     <subtitle>Alexander's Blog Blog</subtitle>
     <icon>https://www.alexanderlolis.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome 2022!]]></title>
+        <id>welcome-2022</id>
+        <link href="https://www.alexanderlolis.com/welcome-2022"/>
+        <updated>2022-01-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Happy new year! I wish everyone health, hapiness and a 2022 in which each individual decides it's own fate, by letting fear aside!]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Node.js fork is slow; Deal with it]]></title>
         <id>node-js-fork-is-slow-deal-with-it</id>
