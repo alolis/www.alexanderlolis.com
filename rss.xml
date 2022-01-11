@@ -4,9 +4,16 @@
         <title>Alexander's Blog Blog</title>
         <link>https://www.alexanderlolis.com/</link>
         <description>Alexander's Blog Blog</description>
-        <lastBuildDate>Wed, 05 Jan 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Jan 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[My 2021 reads]]></title>
+            <link>https://www.alexanderlolis.com/my-2021-reads</link>
+            <guid>my-2021-reads</guid>
+            <pubDate>Tue, 11 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[On A Life Well Spent: Cicero's De Senectute]]></description>
+        </item>
         <item>
             <title><![CDATA[Welcome 2022!]]></title>
             <link>https://www.alexanderlolis.com/welcome-2022</link>
