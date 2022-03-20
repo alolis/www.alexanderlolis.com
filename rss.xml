@@ -4,9 +4,16 @@
         <title>Alexander's Blog Blog</title>
         <link>https://www.alexanderlolis.com/</link>
         <description>Alexander's Blog Blog</description>
-        <lastBuildDate>Tue, 11 Jan 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 20 Mar 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Authorization in a microservices world]]></title>
+            <link>https://www.alexanderlolis.com/authorization-in-a-microservices-world</link>
+            <guid>authorization-in-a-microservices-world</guid>
+            <pubDate>Sun, 20 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Authorization? How hard can it be? I am pretty sure that others have already solved it. We are not the first ones doing microservices. It should be easy to integrate what's already out there.]]></description>
+        </item>
         <item>
             <title><![CDATA[My 2021 reads]]></title>
             <link>https://www.alexanderlolis.com/my-2021-reads</link>
