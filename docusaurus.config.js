@@ -46,6 +46,7 @@ module.exports = {
     prism: {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
+      additionalLanguages: ['php']
     },
     googleAnalytics: {
       trackingID: 'UA-162440229-1',
@@ -61,7 +62,8 @@ module.exports = {
           showReadingTime: true,
           path: './blog',
           routeBasePath: '/',
-          blogSidebarCount: 10 
+          blogSidebarTitle: 'All Posts',
+          blogSidebarCount: 'ALL',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
