@@ -94,7 +94,7 @@ class User {
     if ($this->isAuthorized($rolePermission, $resource) {
       return true;
     }
-    elseif ($model.userId == this.id) {
+    elseif ($model.userId == $this.id) {
       if ($this->isAuthorized($selfRolePermission, $resource))
         return true;
     }
@@ -415,6 +415,8 @@ If you re-read the code, you will see that the `authorizationMiddleware` passes 
 
 Like I have already mentioned, the above is one way to do it, and it works well. You could go with something that is more general-purpose and advanced like a policy engine (e.g [OPA](https://www.openpolicyagent.org/)) but I assure you that they are definitely not a free meal either, nor without limitations. Once again, it comes down to the details of your own system and what you are trying to achieve.
 
+*(UPDATE 23/05/2022): [Cerbos](https://github.com/cerbos/cerbos) recently came to my attention which follows this "contextual" approach I am describing above. Maybe you can check it out as well!*
+
 ### Potential problems
 
 I would like to briefly mention a few situations that you might come up against as a heads up and what you can try to do in order to solve them.
@@ -457,6 +459,8 @@ Although there is a popular belief that in a monolith is easier to implement aut
 
 I am definitely not done with looking for better solutions than the ones I have already suggested and I am looking forward to hearing what others are doing.
 
-The good thing is, that more and more people are starting to take this more seriously and spend more time on it. Hopefully, at some point we will solve it more elegantly. Until then, good luck!
+The good thing is, that more and more people are starting to take this more seriously and spend more time on it (I strongly recommend checking out [Oso](https://www.osohq.com/) and [this](https://www.osohq.com/post/why-authorization-is-hard) article by the company's CTO, Sam Scott). 
+
+Hopefully, at some point we will solve it more elegantly and have a more unified approach. Until then, good luck!
 
 **PS:** I know you are going to ask me, so I am telling you right now that I made all the diagrams with [draw.io](https://drawio-app.com/).
