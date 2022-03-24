@@ -114,7 +114,7 @@ A few things are going on above:
 4. The `User` class is suddenly coupled with authorization. It shouldn't. It should only care about the user entity itself, like the class name implies.
 5. `hasRoleOrSelfPermissionOn` makes the assumption that all models have a `userId` field which means that we should know beforehand that this will be true (forever) or else the function will not work as expected. 
 
-**The authorization code is tedious, poluting the controllers, and error prone**. However, we were also lucky because this was the ugliest it could get (based on project requirements) and therefore it was acceptable (or at least we persuaded ourselves that it was), instead of pushing to a more complex solution. If, for example, there was the requirement of checking multiple model attributes (or attributes from different models), depending on the controller action, then `hasRoleOrSelfPermissionOn` it wouldn't be able to cover everything and the controllers would imediattely become much messier. It did serve us well back then but I no longer like it because avoiding tangling code at some point became a priority.
+**The authorization code is tedious, poluting the controllers, and error prone**. However, we were also lucky because this was the ugliest it could get (based on project requirements) and therefore it was acceptable (or at least we persuaded ourselves that it was), instead of pushing to a more complex solution. If, for example, there was the requirement of checking multiple model attributes (or attributes from different models), depending on the controller action, then `hasRoleOrSelfPermissionOn` wouldn't be able to cover everything and the controllers would immediately become much messier. It did serve us well back then but I no longer like it because avoiding tangling code at some point became a priority.
 
 **What I am describing above is not inherent to monoliths.** The same implementation could have been done in a microservice (and I have seen it in multiple occasions, with everything done in the controllers) if the application data that the authorization mechanism required, lived under the same roof. But more on that later.
 
@@ -126,7 +126,7 @@ But before we dive into that, we need to think about our authorization flow in a
 
 ## Authorization flow overview
 
-So, what would this authorization mechanism would look like that it wouldn't force a single architecture but could be more flexible? The following diagram will give you an idea:
+So, what would this authorization mechanism look like in order to not force a single architecture but be more flexible instead?? The following diagram will give you an idea:
 
 <div style={{textAlign: "center"}}>
 
@@ -141,7 +141,7 @@ So, what would this authorization mechanism would look like that it wouldn't for
 3. **PEP** makes a request to the **Policy Decision Point (PDP)** in order to figure out whether or not the request is authorized to move forward. PDP will probably be a library that keeps track of roles, permissions and resources and expose an interface in order to query it and get a boolean answer whether or not someone can do something on a resource.
 4. **PDP** *might* need extra information in order to decide if the request should be allowed or denied so it needs to ask the **Policy Information Point (PIP)** for that extra information. That extra information can be retrieved from a database, from a flat file, from an external service or from any other source you need. PIP could be just another library which PDP can use internally if it needs to.
 5. **PIP** loads the extra information and returns it to the PDP.
-6. **PDP**, in combination with the extra information it got from PIP, it evaluates the defined policy (which can be stored anywhere you like, e.g. database or flat file), and decides whether or not the request has access to the underlying resource based on what the policy says. 
+6. **PDP**, in combination with the extra information it got from PIP, evaluates the defined policy (which can be stored anywhere you like, e.g. database or flat file), and decides whether or not the request has access to the underlying resource based on what the policy says. 
 7. The answer **is returned to PEP**, which either allows or denies the request to move forward.
 
 On the diagram above there is another piece, **the Policy Administration Point (PAP)**. This is basically an optional interface that helps you manage the policies. It can be anything, a web interface, a command line tool, a desktop GUI or you can just skip it entirely if you do not want to provide it and do everything manually instead.
