@@ -7,6 +7,7 @@
     <link rel="alternate" href="https://www.alexanderlolis.com/"/>
     <subtitle>Alexander's Blog Blog</subtitle>
     <icon>https://www.alexanderlolis.com/img/favicon.ico</icon>
+    <rights>Copyright © 2022 Alexander Lolis.</rights>
     <entry>
         <title type="html"><![CDATA[Authorization in a microservices world]]></title>
         <id>authorization-in-a-microservices-world</id>
