@@ -126,7 +126,7 @@ But before we dive into that, we need to think about our authorization flow in a
 
 ## Authorization flow overview
 
-So, what would this authorization mechanism look like in order to not force a single architecture but be more flexible instead?? The following diagram will give you an idea:
+So, what would this authorization mechanism look like in order to not force a single architecture but be more flexible instead? The following diagram will give you an idea:
 
 <div style={{textAlign: "center"}}>
 

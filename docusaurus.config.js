@@ -23,6 +23,11 @@ module.exports = {
       items: [
         {to: '/about', label: 'About', position: 'left'},
         {
+          href: 'https://www.alexanderlolis.com/rss.xml',
+          label: 'RSS',
+          position: 'right',
+        },
+        {
           href: 'https://github.com/alolis',
           label: 'GitHub',
           position: 'right',
@@ -64,6 +69,10 @@ module.exports = {
           routeBasePath: '/',
           blogSidebarTitle: 'All Posts',
           blogSidebarCount: 'ALL',
+	  feedOptions: {
+            type: 'all',
+            copyright: `Copyright © ${new Date().getFullYear()} Alexander Lolis.`,
+          },
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
