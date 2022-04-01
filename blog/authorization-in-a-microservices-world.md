@@ -18,6 +18,8 @@ You will probably start with a boolean `admin` flag in your `User` model and the
 
 But how do you actually go **from a simple flag** to **Role Based Access Control (RBAC)** and then to **Attribute Based Access Control (ABAC)**, especially in a microservices environment? In the following post I hope to help you get there.
 
+*(UPDATE: 02/04/2022): This article made it to the HackerNews frontpage and some interesting comments can be found [here](https://news.ycombinator.com/item?id=30878926). Feel free to participate!*
+
 <!--truncate-->
 
 ## The monolith
