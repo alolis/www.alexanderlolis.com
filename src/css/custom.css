@@ -27,3 +27,17 @@
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+#mc_embed_signup_wrapper {
+  display:  flex;
+  justify-content: center;
+}
+
+#mc_embed_signup {
+  background:#fff; 
+  clear:left; 
+  font:14px Helvetica,Arial,sans-serif; 
+  width: 600px; 
+  color: #000;
+  padding-top: 1px;
+}
