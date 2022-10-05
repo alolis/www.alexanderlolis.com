@@ -139,7 +139,7 @@ So, what would this authorization mechanism look like in order to not force a si
 **The flow goes like this:**
 
 1. User requests to view record A.
-2. The requested is intercepted by the **Policy Enforcement Point (PEP)**. This is usually a **middleware**, or generally speaking, a layer in your stack, as high as possible, in order for the request to stop right there in case it's not authorized, instead of allowing it to travel deeper in the system.
+2. The request is intercepted by the **Policy Enforcement Point (PEP)**. This is usually a **middleware**, or generally speaking, a layer in your stack, as high as possible, in order for the request to stop right there in case it's not authorized, instead of allowing it to travel deeper in the system.
 3. **PEP** makes a request to the **Policy Decision Point (PDP)** in order to figure out whether or not the request is authorized to move forward. PDP will probably be a library that keeps track of roles, permissions and resources and expose an interface in order to query it and get a boolean answer whether or not someone can do something on a resource.
 4. **PDP** *might* need extra information in order to decide if the request should be allowed or denied so it needs to ask the **Policy Information Point (PIP)** for that extra information. That extra information can be retrieved from a database, from a flat file, from an external service or from any other source you need. PIP could be just another library which PDP can use internally if it needs to.
 5. **PIP** loads the extra information and returns it to the PDP.
@@ -238,7 +238,7 @@ The example is written in `Node.js`, but I am confident you can do something sim
 
 ```js title=server.js
 import express from 'express'; // express is a web framework for Node.js 
-import logger '/your/logger';
+import logger from '/your/logger';
 import {
   AccessControl, 
   ROLE, 
@@ -461,8 +461,6 @@ Although there is a popular belief that in a monolith is easier to implement aut
 
 I am definitely not done with looking for better solutions than the ones I have already suggested and I am looking forward to hearing what others are doing.
 
-The good thing is, that more and more people are starting to take this more seriously and spend more time on it (I strongly recommend checking out [Oso](https://www.osohq.com/) and [this](https://www.osohq.com/post/why-authorization-is-hard) article by the company's CTO, Sam Scott). 
-
-Hopefully, at some point we will solve it more elegantly and have a more unified approach. Until then, good luck!
+The good thing is, that more and more people are starting to take this more seriously and spend more time on it. Hopefully, at some point we will solve it more elegantly and have a more unified approach. Until then, good luck!
 
 **PS:** I know you are going to ask me, so I am telling you right now that I made all the diagrams with [draw.io](https://drawio-app.com/).
