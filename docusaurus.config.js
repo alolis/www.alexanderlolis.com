@@ -46,6 +46,23 @@ module.exports = {
     },
     footer: {
       style: 'dark',
+      links: [
+        {
+          items: [
+            {
+              html: `
+                <div style="display: flex; justify-content: center; height: 50px;">
+                  <iframe 
+                    src="https://embeds.beehiiv.com/4231c0b9-dfc2-4080-8342-88f399bc822f?slim=true" 
+                    data-test-id="beehiiv-embed" frameborder="0" scrolling="no" 
+                    style="margin: 0; border-radius: 0px !important; background-color: transparent; width: 400px; height: 100%">
+                  </iframe>
+                </div>
+              `
+            },
+          ]
+        },
+      ],
       copyright: `Copyright © ${new Date().getFullYear()} Alexander's Blog. Built with Docusaurus.`,
     },
     prism: {
