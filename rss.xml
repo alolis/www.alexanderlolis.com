@@ -4,10 +4,17 @@
         <title>Alexander's Blog Blog</title>
         <link>https://www.alexanderlolis.com/</link>
         <description>Alexander's Blog Blog</description>
-        <lastBuildDate>Sun, 20 Mar 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Jan 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <copyright>Copyright © 2022 Alexander Lolis.</copyright>
+        <copyright>Copyright © 2023 Alexander Lolis.</copyright>
+        <item>
+            <title><![CDATA[My 2022 reads]]></title>
+            <link>https://www.alexanderlolis.com/my-2022-reads</link>
+            <guid>my-2022-reads</guid>
+            <pubDate>Sat, 07 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Four Thousand Weeks: Time Management for Mortals]]></description>
+        </item>
         <item>
             <title><![CDATA[Authorization in a microservices world]]></title>
             <link>https://www.alexanderlolis.com/authorization-in-a-microservices-world</link>

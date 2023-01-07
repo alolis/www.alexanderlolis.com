@@ -2,12 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.alexanderlolis.com/</id>
     <title>Alexander's Blog Blog</title>
-    <updated>2022-03-20T00:00:00.000Z</updated>
+    <updated>2023-01-07T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.alexanderlolis.com/"/>
     <subtitle>Alexander's Blog Blog</subtitle>
     <icon>https://www.alexanderlolis.com/img/favicon.ico</icon>
-    <rights>Copyright © 2022 Alexander Lolis.</rights>
+    <rights>Copyright © 2023 Alexander Lolis.</rights>
+    <entry>
+        <title type="html"><![CDATA[My 2022 reads]]></title>
+        <id>my-2022-reads</id>
+        <link href="https://www.alexanderlolis.com/my-2022-reads"/>
+        <updated>2023-01-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Four Thousand Weeks: Time Management for Mortals]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Authorization in a microservices world]]></title>
         <id>authorization-in-a-microservices-world</id>
