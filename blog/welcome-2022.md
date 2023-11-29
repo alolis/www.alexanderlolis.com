@@ -10,7 +10,7 @@ tags: [thoughts]
 
 Happy new year! I wish everyone health, hapiness and a 2022 in which each individual decides it's own fate, by letting fear aside!
 
-For me, 2021, was a year full of growth, both personally and professionaly, and even if the "pandemic" affected my daily life, it did not stop me from living it. The one thing that did disappoint me though, was how easily people were divided due to the whole situation, but perhaps, in the years to come, everyone - hopefully - will learn their lesson from this. The important thing to do right NOW is, to stop being little scared bitches, and take your life back.
+For me, 2021, was a year full of growth, both personally and professionaly, and even if the "pandemic" affected my daily life, it did not stop me from living it. The one thing that did disappoint me though, was how easily people were divided due to the whole situation, but perhaps, in the years to come, everyone - hopefully - will learn their lesson from this. The important thing to do right NOW is, to stop being little scared...puppies, and take your life back.
 
 Pandemic aside, during 2021 I have recorded my daily activities in 15 minute intervals and I will be exporting some stats from it soon (and post them of course), but from the initial looks of it, I already have a small list of things I want to improve this year:
 
