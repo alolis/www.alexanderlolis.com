@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[3639],{4052:function(s){s.exports=JSON.parse('{"allTagsPath":"/tags","slug":"redis","name":"redis","count":1,"permalink":"/tags/redis"}')}}]);
