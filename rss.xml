@@ -4,10 +4,17 @@
         <title>Alexander's Blog Blog</title>
         <link>https://www.alexanderlolis.com/</link>
         <description>Alexander's Blog Blog</description>
-        <lastBuildDate>Sat, 07 Jan 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 Dec 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright © 2023 Alexander Lolis.</copyright>
+        <item>
+            <title><![CDATA[My 2023 reads]]></title>
+            <link>https://www.alexanderlolis.com/my-2023-reads</link>
+            <guid>my-2023-reads</guid>
+            <pubDate>Tue, 26 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Code: The Hidden Language of Computer Hardware and Software]]></description>
+        </item>
         <item>
             <title><![CDATA[My 2022 reads]]></title>
             <link>https://www.alexanderlolis.com/my-2022-reads</link>
