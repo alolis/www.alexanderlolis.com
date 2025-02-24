@@ -4,10 +4,17 @@
         <title>Alexander's Blog Blog</title>
         <link>https://www.alexanderlolis.com/</link>
         <description>Alexander's Blog Blog</description>
-        <lastBuildDate>Tue, 26 Dec 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 23 Feb 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <copyright>Copyright © 2023 Alexander Lolis.</copyright>
+        <copyright>Copyright © 2025 Alexander Lolis.</copyright>
+        <item>
+            <title><![CDATA[My 2024 reads]]></title>
+            <link>https://www.alexanderlolis.com/my-2024-reads</link>
+            <guid>my-2024-reads</guid>
+            <pubDate>Sun, 23 Feb 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Peopleware: Productive Projects and Teams]]></description>
+        </item>
         <item>
             <title><![CDATA[My 2023 reads]]></title>
             <link>https://www.alexanderlolis.com/my-2023-reads</link>
