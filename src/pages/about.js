@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import AboutSelfieImageUrl from '@site/static/img/about_selfie.jpg';
 
 function About() {
   const {siteConfig = {}} = useDocusaurusContext();
@@ -15,7 +14,6 @@ function About() {
       <div style={{justifyContent: 'center'}} className="row">
         <main className="col col--7">
           <h1>About</h1>
-          <img align="right" style={{marginLeft: '10px'}} src={AboutSelfieImageUrl} width="311px" height="414px" />
           <p>I am Alexander Lolis, a software engineer at heart and mind with a snowboarder’s soul.</p>
           <p>This is my personal space in which I am mostly writing about software, business, management, or whatever else that might come to mind on a weird day.</p>
           <p>
