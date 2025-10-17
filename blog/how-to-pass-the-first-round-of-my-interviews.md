@@ -3,9 +3,7 @@ slug: how-to-pass-the-first-round-of-my-interviews
 title: How to pass the first round of my interviews
 date: 2021-01-25
 description: A cheat sheet for future software developer candidates
-author: Alexander Lolis
-author_url: https://github.com/alolis
-author_image_url: https://avatars.githubusercontent.com/u/82233?v=4
+authors: alolis
 tags: [business, management, experiments, interviews]
 ---
 

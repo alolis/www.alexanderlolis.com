@@ -1,5 +1,4 @@
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
@@ -9,7 +8,11 @@ module.exports = {
   baseUrl: '/',
   trailingSlash: false,
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn', // 'ignore' | 'warn' | 'throw'
+    }
+  },
   favicon: 'img/favicon.ico',
   organizationName: 'alolis', 
   projectName: 'www.alexanderlolis.com',
@@ -66,13 +69,9 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Alexander's Blog. Built with Docusaurus.`,
     },
     prism: {
-      theme: lightCodeTheme,
-      darkTheme: darkCodeTheme,
-      additionalLanguages: ['php']
-    },
-    googleAnalytics: {
-      trackingID: 'UA-162440229-1',
-      anonymizeIP: true, // Should IPs be anonymized?
+      theme: prismThemes.github,
+      darkTheme: prismThemes.dracula,
+      additionalLanguages: ['php', 'bash']
     }
   },
   presets: [
@@ -84,15 +83,21 @@ module.exports = {
           showReadingTime: true,
           path: './blog',
           routeBasePath: '/',
-          blogSidebarTitle: 'All Posts',
+          blogSidebarTitle: 'Recent posts',
           blogSidebarCount: 'ALL',
-    feedOptions: {
+          feedOptions: {
             type: 'all',
             copyright: `Copyright © ${new Date().getFullYear()} Alexander Lolis.`,
           },
+          onInlineAuthors: 'ignore',
+          onUntruncatedBlogPosts: 'ignore', // 'ignore' | 'warn' (default) | 'throw'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+        },
+        googleAnalytics: {
+          trackingID: 'UA-162440229-1',
+          anonymizeIP: true, // Should IPs be anonymized?
         }
       }
     ],

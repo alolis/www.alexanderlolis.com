@@ -1,10 +1,8 @@
 ---
 slug: my-2021-reads
 title: My 2021 reads
-date: 2022-01-11
-author: Alexander Lolis
-author_url: https://github.com/alolis
-author_image_url: https://avatars.githubusercontent.com/u/82233?v=4
+date: 2021-12-25
+authos: alolis
 tags: [books]
 ---
 
