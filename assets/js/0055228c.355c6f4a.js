@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkblog=globalThis.webpackChunkblog||[]).push([[9262],{5049:s=>{s.exports=JSON.parse('{"tag":{"label":"business","permalink":"/tags/business","allTagsPath":"/tags","count":2,"unlisted":false},"listMetadata":{"permalink":"/tags/business","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

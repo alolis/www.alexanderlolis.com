@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkblog=globalThis.webpackChunkblog||[]).push([[142],{9517:a=>{a.exports=JSON.parse('{"tag":{"label":"teams","permalink":"/tags/teams","allTagsPath":"/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/tags/teams","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

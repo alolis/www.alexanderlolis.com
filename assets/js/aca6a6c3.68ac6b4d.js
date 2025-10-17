@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkblog=globalThis.webpackChunkblog||[]).push([[3829],{5651:l=>{l.exports=JSON.parse('{"tag":{"label":"culture","permalink":"/tags/culture","allTagsPath":"/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/tags/culture","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

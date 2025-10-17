@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkblog=globalThis.webpackChunkblog||[]).push([[3032],{8322:e=>{e.exports=JSON.parse('{"authors":[{"name":"Alexander Lolis","title":"Software Engineer","url":"https://github.com/alolis","imageURL":"https://avatars.githubusercontent.com/u/82233?v=4","key":"alolis","page":null,"count":4}]}')}}]);
