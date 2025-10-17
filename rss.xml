@@ -4,23 +4,11 @@
         <title>Alexander's Blog Blog</title>
         <link>https://www.alexanderlolis.com</link>
         <description>Alexander's Blog Blog</description>
-        <lastBuildDate>Sun, 23 Feb 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 25 Dec 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>Copyright © 2025 Alexander Lolis.</copyright>
-        <item>
-            <title><![CDATA[My 2025 reads]]></title>
-            <link>https://www.alexanderlolis.com/my-2025-reads</link>
-            <guid>https://www.alexanderlolis.com/my-2025-reads</guid>
-            <pubDate>Sun, 23 Feb 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Peopleware: Productive Projects and Teams]]></description>
-            <content:encoded><![CDATA[<p><a href="https://www.goodreads.com/book/show/67825.Peopleware" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" alt="Peopleware: Productive Projects and Teams" src="https://www.alexanderlolis.com/assets/images/peopleware_tom_demarco_timothy_lister-f41d1fa51a157b82017bdeb4c29f76a0.png" width="167" height="250" class="img_ev3q"></a></p>
-<ul>
-<li><strong>[5/5/] Peopleware: Productive Projects and Teams</strong>:</li>
-</ul>]]></content:encoded>
-            <category>books</category>
-        </item>
         <item>
             <title><![CDATA[My 2024 reads]]></title>
             <link>https://www.alexanderlolis.com/my-2024-reads</link>
