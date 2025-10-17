@@ -3,9 +3,7 @@ slug: node-js-fork-is-slow-deal-with-it
 title: Node.js fork is slow; Deal with it
 date: 2021-09-27
 description: Dealing with Node.js fork slowness
-author: Alexander Lolis
-author_url: https://github.com/alolis
-author_image_url: https://avatars.githubusercontent.com/u/82233?v=4
+authors: alolis
 tags: [development, battlefield, nodejs, javascript, no_silver_bullet]
 ---
 
@@ -25,7 +23,7 @@ Don't bother. I will tell you right now that the bottleneck is the forking.
 
 <!--truncate-->
 
-> "**OUTRAGEOUS!** I should have used *{INSERT_OTHER_TECH_HERE}* which is super awesomely fast and all the cool kids are using it! Some random dude on medium.com says it is true!
+> "**OUTRAGEOUS!** I should have used *[INSERT_OTHER_TECH_HERE]* which is super awesomely fast and all the cool kids are using it! Some random dude on medium.com says it is true!
 > 
 > *-- your loud voice*
 

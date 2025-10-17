@@ -1,10 +1,8 @@
 ---
 slug: my-2024-reads
 title: My 2024 reads
-date: 2025-02-23
-author: Alexander Lolis
-author_url: https://github.com/alolis
-author_image_url: https://avatars.githubusercontent.com/u/82233?v=4
+date: 2024-12-25
+authors: alolis
 tags: [books]
 ---
 
