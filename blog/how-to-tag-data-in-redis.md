@@ -3,9 +3,7 @@ slug: how-to-tag-data-in-redis
 title: How to tag data in Redis
 date: 2020-12-01
 description: What are Sets and how to use them as secondary indexes
-author: Alexander Lolis
-author_url: https://github.com/alolis
-author_image_url: https://avatars.githubusercontent.com/u/82233?v=4
+authors: alolis
 tags: [playground, howto, redis]
 ---
 

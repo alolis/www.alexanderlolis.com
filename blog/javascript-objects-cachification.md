@@ -3,9 +3,7 @@ slug: javascript-objects-cachification
 title: JavaScript Objects Cachification
 date: 2020-12-19
 description: Wrapping your JavaScript Objects with caching capabilities
-author: Alexander Lolis
-author_url: https://github.com/alolis
-author_image_url: https://avatars.githubusercontent.com/u/82233?v=4
+authors: alolis
 tags: [development, javascript, nodejs, caching, battlefield]
 ---
 

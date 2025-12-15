@@ -2,9 +2,7 @@
 slug: my-2020-reads
 title: My 2020 reads
 date: 2020-12-25
-author: Alexander Lolis
-author_url: https://github.com/alolis
-author_image_url: https://avatars.githubusercontent.com/u/82233?v=4
+authors: alolis
 tags: [books]
 ---
 
