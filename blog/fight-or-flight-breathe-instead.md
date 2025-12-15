@@ -3,9 +3,7 @@ slug: fight-or-flight-breathe-instead
 title: Fight or flight? Breathe instead
 date: 2020-11-04
 description: How to achieve the best attitude at work with integrity and self-awareness
-author: Alexander Lolis
-author_url: https://github.com/alolis
-author_image_url: https://avatars.githubusercontent.com/u/82233?v=4
+authors: alolis
 tags: [business, culture, teams]
 ---
 

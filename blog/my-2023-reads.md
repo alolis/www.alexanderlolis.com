@@ -2,9 +2,7 @@
 slug: my-2023-reads
 title: My 2023 reads
 date: 2023-12-26
-author: Alexander Lolis
-author_url: https://github.com/alolis
-author_image_url: https://avatars.githubusercontent.com/u/82233?v=4
+authors: alolis
 tags: [books]
 ---
 

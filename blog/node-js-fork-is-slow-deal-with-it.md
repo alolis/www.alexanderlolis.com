@@ -4,7 +4,7 @@ title: Node.js fork is slow; Deal with it
 date: 2021-09-27
 description: Dealing with Node.js fork slowness
 authors: alolis
-tags: [development, battlefield, nodejs, javascript, no_silver_bullet]
+tags: [battlefield, nodejs]
 ---
 
 Yes. I know. Forking a process in `Node.js` is slow. Instead of crying about it, let's see how we can handle it!
@@ -27,8 +27,7 @@ Don't bother. I will tell you right now that the bottleneck is the forking.
 > 
 > *-- your loud voice*
 
-Well, instead of re-writting the whole thing in a different language, I have an alternative for you; **use a pool of forked child processes.
-**
+Well, instead of re-writting the whole thing in a different language, I have an alternative for you; **use a pool of forked child processes.**
 
 ## Approach
 

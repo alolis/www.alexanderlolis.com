@@ -2,9 +2,7 @@
 slug: remote-work-tips
 title: Remote work tips - How NOT to snap
 date: 2020-04-18
-author: Alexander Lolis
-author_url: https://github.com/alolis
-author_image_url: https://avatars.githubusercontent.com/u/82233?v=4
+authors: alolis
 tags: [self-help, remote-work, lifestyle]
 ---
 
