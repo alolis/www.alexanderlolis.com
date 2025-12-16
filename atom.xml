@@ -2,12 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.alexanderlolis.com</id>
     <title>Alexander's Blog Blog</title>
-    <updated>2024-12-25T00:00:00.000Z</updated>
+    <updated>2025-12-16T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.alexanderlolis.com"/>
     <subtitle>Alexander's Blog Blog</subtitle>
     <icon>https://www.alexanderlolis.com/img/favicon.ico</icon>
     <rights>Copyright © 2025 Alexander Lolis.</rights>
+    <entry>
+        <title type="html"><![CDATA[My 2025 reads]]></title>
+        <id>https://www.alexanderlolis.com/my-2025-reads</id>
+        <link href="https://www.alexanderlolis.com/my-2025-reads"/>
+        <updated>2025-12-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[How big things get done]]></summary>
+        <content type="html"><![CDATA[<p><a href="https://www.goodreads.com/book/show/73004305-how-big-things-get-done" target="_blank" rel="noopener noreferrer" class=""><img decoding="async" loading="lazy" alt="How big things get done" src="https://www.alexanderlolis.com/assets/images/how_big_things_get_done_bent_flyvbjerg-57d13f6e1cca71d35ab751e73071109d.jpg" width="167" height="250" class="img_ev3q"></a>
+<a href="https://www.goodreads.com/book/show/50364458-the-tyranny-of-merit" target="_blank" rel="noopener noreferrer" class=""><img decoding="async" loading="lazy" alt="The Tyranny of Merit: What&amp;#39;s Become of the Common Good?" src="https://www.alexanderlolis.com/assets/images/the_tyranny_of_merit_michael_sandel-02f6705efb45f32de1e2e0b7ab10fc20.png" width="167" height="250" class="img_ev3q"></a>
+<a href="https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer" target="_blank" rel="noopener noreferrer" class=""><img decoding="async" loading="lazy" alt="The Pragmatic Programmer: From Journeyman to Mastery, 20th Anniversary Edition" src="https://www.alexanderlolis.com/assets/images/the_pragmatic_programmer_20th_anniversary_edition_andy_hunt-3167d9674e41ef6f0037d6f503ef5e2d.jpg" width="167" height="250" class="img_ev3q"></a>
+<a href="https://www.goodreads.com/book/show/566213.The_Secrets_of_Consulting" target="_blank" rel="noopener noreferrer" class=""><img decoding="async" loading="lazy" alt="The Secrets of Consulting: A Guide to Giving and Getting Advice Successfully" src="https://www.alexanderlolis.com/assets/images/the_secrets_of_consulting_gerald_weinberg-e0cd72f11b342d6d649220df3f3fad6a.jpg" width="167" height="250" class="img_ev3q"></a>
+<a href="https://www.goodreads.com/book/show/6732019-rework" target="_blank" rel="noopener noreferrer" class=""><img decoding="async" loading="lazy" alt="Rework" src="https://www.alexanderlolis.com/assets/images/rework_jason_fried-db590360e32ac7b898141bc35625f050.jpg" width="167" height="250" class="img_ev3q"></a></p>
+<ul>
+<li class=""><strong>[5/5/] How big things get done</strong>: This was a very, VERY, good read. This is how a book, filled with real experience and backed by data looks like. One of the very few management books that I have read that it didn't feel like "vague stories" but as real, hard earned insights from actual projects. I strongly recommend reading it. If I had to keep one thing from the whole book is this: Think slow, act fast.</li>
+<li class=""><strong>[5/5/] The Tyranny of Merit: What's Become of the Common Good?</strong>: This book was a great eye-opener regarding the dangers of meritocracy. The core idea is that meritocracy breeds hubris among winners and humiliation among losers. I agree with the author’s argument that meritocracy ignores a crucial factor: luck. It convinces people that their success is entirely of their own making, while blinding them to the advantages that allowed them to succeed in the first place. The result is not just inequality, but a moral divide that erodes solidarity. A strong and unsettling read.</li>
+<li class=""><strong>[5/5/] The Pragmatic Programmer: From Journeyman to Mastery, 20th Anniversary Edition</strong>: It has been some time since I read the original version of the book and the anniversary edition was sitting there in my bookshelf so I felt like re-reading it. I am glad I did. This is a book that every software engineer should read. Years of distilled experience are written in these pages and the important part is not the code examples, it's the philosophy of the book with which I agree 100%. YOU are responsible for the quality of your work. Not your tools, not your manager, not the process. YOU. Be adaptable and never stop improving yourself by treating software development as a continuous learnign and decision-making discipline.</li>
+<li class=""><strong>[4/5/] The Secrets of Consulting: A Guide to Giving and Getting Advice Successfully</strong>: TThis is probably one of the few books I have read about consulting and genuinely liked. Its core idea is that consulting is fundamentally a human and political activity, not a technical one. Success depends less on having the "right" answers and more on managing expectations, relationships, and responsibility. I completely agree with this perspective. The book does a great job of describing common pitfalls consultants fall into and stays practical throughout. I highly recommend it, especially if you’re considering venturing into the consulting world.</li>
+<li class=""><strong>[4/5/] Rework</strong>: I really like the way these guys (Jason Fried and David Heinemeier Hansson) work. They get things done and consistently cut through the BS to focus on what really matters: delivering value. The book challenges many assumptions people take for granted about work and growth. Its core message is that simplicity, focus, and restraint often beat scale, speed, and ambition. Some ideas felt quite opinionated and context-dependent, but overall it offers a refreshing perspective on running a business without the hustle and overcomplication that most organizations fall into these days. Definitely an interesting read.</li>
+</ul>]]></content>
+        <author>
+            <name>Alexander Lolis</name>
+            <uri>https://github.com/alolis</uri>
+        </author>
+        <category label="books" term="books"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[My 2024 reads]]></title>
         <id>https://www.alexanderlolis.com/my-2024-reads</id>
